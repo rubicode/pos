@@ -89,6 +89,51 @@ export default class Kasir extends Component {
       <input type="text" className="form-control" name="" placeholder="Harga Akhir" />
       </div>
       </div>
+
+      <button type="button" className="btn btn-success">Cari Barang</button>&nbsp;
+      <button type="button" className="btn btn-warning">Reset Transaksi</button>
+
+      </form>
+
+      <table className="table table-striped">
+      <thead>
+      <tr>
+      <th>Kode Barang</th>
+      <th>Nama Barang</th>
+      <th>Harga Satuan</th>
+      <th>Jumlah Jual</th>
+      <th>Opsi</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>a98a00</td>
+      <td>Sabun</td>
+      <td>1000</td>
+      <td>12</td>
+      <td><button type="button" className="btn btn-danger">Hapus</button></td>
+      </tr>
+      </tbody>
+      </table>
+
+      <form className='form-horizontal'>
+      <div className='form-group'>
+      <label className="col-sm-2 control-label">Bayar</label>
+      <div className="col-sm-4">
+      <input type="text" className="form-control" name="" placeholder="Bayar" />
+      </div>
+      </div>
+
+      <div className='form-group'>
+      <label className="col-sm-2 control-label">Kembalian</label>
+      <div className="col-sm-4">
+      <input type="text" className="form-control" name="" placeholder="Kembalian" />
+      </div>
+      </div>
+
+      <button type="button" className="btn btn-primary col-md-offset-2 ">Bayar</button>&nbsp;
+      <button type="button" className="btn btn-success">Simpan Transaksi</button>
+
       </form>
 
       </div>
