@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ListItem from './ListItem'
 
 export default class Kasir extends Component {
 
@@ -90,11 +91,12 @@ export default class Kasir extends Component {
       </div>
       </div>
 
-      <button type="button" className="btn btn-success">Cari Barang</button>&nbsp;
-      <button type="button" className="btn btn-warning">Reset Transaksi</button>
+      <ListItem />
 
       </form>
 
+      <br /><br />
+      
       <table className="table table-striped">
       <thead>
       <tr>
