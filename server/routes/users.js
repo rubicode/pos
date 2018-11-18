@@ -3,11 +3,7 @@ var router = express.Router();
 var jwt = require('jsonwebtoken');
 var User = require('../models/user');
 
-/* GET users listing. */
-router.get('/register', function(req, res, next) {
-  res.send('respond with a resource');
-});
-
+// Register
 router.post('/register', function(req, res, next){
   // let countMail = User.find({email: req.body.email}).count();
   // console.log(countMail);
@@ -38,6 +34,7 @@ router.post('/register', function(req, res, next){
     }
   })
 
+// Login
   router.post('/login', (req, res) =>{
     User.findOne({
       email: req.body.email,
