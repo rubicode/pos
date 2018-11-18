@@ -4,7 +4,7 @@ export default class DataCustomer extends Component {
   constructor(props, context) {
     super(props, context)
     this.state = {
-      editing: false,
+      editing: false
     }
   }
 
