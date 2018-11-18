@@ -9,7 +9,7 @@ export default class Kasir extends Component {
       <div className="container">
       <br /><br />
 
-      <div className="panel panel-warning">
+      <div className="panel panel-primary">
       <div className="panel-body">
 
       <button type="button" className="btn btn-primary">Mulai Transaksi Baru</button>
@@ -96,7 +96,7 @@ export default class Kasir extends Component {
       </form>
 
       <br /><br />
-      
+
       <table className="table table-striped">
       <thead>
       <tr>
