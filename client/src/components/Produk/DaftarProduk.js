@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import DataCustomer from './DataCustomer'
+import DataProduk from './DataProduk'
 
-export default class CustomerList extends Component {
+export default class DaftarProduk extends Component {
 
   render() {
 
@@ -10,7 +10,7 @@ export default class CustomerList extends Component {
       <br />
       <div className="panel panel-primary">
       <div className="panel panel-default">
-      <div className="panel-heading">Customer List</div>
+      <div className="panel-heading">Daftar Produk</div>
       <div className="panel-body">
       <form className="form-inline">
       <button type="button" className="btn btn-primary">Tambah</button>
@@ -28,17 +28,16 @@ export default class CustomerList extends Component {
       <table className="table table-striped">
       <thead>
       <tr>
-      <th>ID</th>
+      <th>Kode</th>
       <th>Nama</th>
-      <th>Pelanggan Sejak</th>
-      <th>Bulan Ini</th>
-      <th>Tahun Ini</th>
-      <th>Semuanya</th>
+      <th>Kategori</th>
+      <th>Harga</th>
+      <th>Stok</th>
       <th>Actions</th>
       </tr>
       </thead>
       <tbody>
-        <DataCustomer />
+        <DataProduk />
       </tbody>
       </table>
       </div>

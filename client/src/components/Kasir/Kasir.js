@@ -21,9 +21,26 @@ export default class Kasir extends Component {
 
       <form className='form-horizontal'>
       <div className='form-group'>
+      <label className="col-sm-4 control-label">Customer</label>
+      <div className="col-sm-6">
+      <input type="text" className="form-control" name="customer" placeholder="Id Customer" />
+      </div>
+      <div className="col-sm-2">
+      <button type="button" className="btn btn-primary">Cari</button>
+      </div>
+      </div>
+
+      <div className='form-group'>
+      <label className="col-sm-4 control-label"></label>
+      <div className="col-sm-8">
+      <input type="text" className="form-control" name="nama" placeholder="Nama Customer" />
+      </div>
+      </div>
+
+      <div className='form-group'>
       <label className="col-sm-4 control-label">No. Nota</label>
       <div className="col-sm-8">
-      <input type="text" className="form-control" name="nota" placeholder="no nota" />
+      <input type="text" className="form-control" name="nota" placeholder="No nota" />
       </div>
       </div>
 
@@ -57,6 +74,7 @@ export default class Kasir extends Component {
       </div>
       </div>
       </div>
+
 
       <form>
       <div className="form-row">
