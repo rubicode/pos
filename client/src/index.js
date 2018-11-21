@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import DaftarProduk from './components/Produk/DaftarProduk';
+import DetailInvoice from './components/Invoice/DetailInvoice';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<DaftarProduk />, document.getElementById('root'));
+ReactDOM.render(<DetailInvoice />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

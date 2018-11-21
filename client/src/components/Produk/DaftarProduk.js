@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import DataProduk from './DataProduk'
 
 export default class DaftarProduk extends Component {
-
   render() {
 
     return(
@@ -10,7 +9,7 @@ export default class DaftarProduk extends Component {
       <br />
       <div className="panel panel-primary">
       <div className="panel panel-default">
-      <div className="panel-heading">Daftar Produk</div>
+      <div className="panel-heading">Customer List</div>
       <div className="panel-body">
       <form className="form-inline">
       <button type="button" className="btn btn-primary">Tambah</button>
@@ -42,6 +41,6 @@ export default class DaftarProduk extends Component {
       </table>
       </div>
       </div>
-    )
+    );
   }
 }
